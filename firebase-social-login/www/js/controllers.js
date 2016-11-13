@@ -30,7 +30,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PinCtrl', function (SocketService, $scope, $state) {
-  var pinAttempt = " "; 
+  var pinAttempt = ""; 
   $scope.dispPin = " ";
 
   $scope.press = function(num) {
